@@ -1,4 +1,12 @@
-var finances = [
+let losses = 0 ;
+let profits = 0 ;
+let months = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+let years = [ "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"]
+let currentMonth = ["current month", "year"]
+let previousMonth = ["previous month", "year"]
+let average =
+
+let finances = [
 ['Jan-2010', 867884],
 ['Feb-2010', 984655],
 ['Mar-2010', 322013],
@@ -86,3 +94,50 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+/*
+console.log(current month - previous month)
+Greatest Increase in Profits: Nov-2016 ($795914)
+
+console.log(current month - previous month)
+Greatest Decrease in Profits: Jul-2016 ($-1163797)
+
+*/
+
+/* ```text
+Financial Analysis
+----------------------------
+Total Months: 86
+Total: $38382578
+Average  Change: $7803.48
+Greatest Increase in Profits: Nov-2016 ($795914)
+Greatest Decrease in Profits: Jul-2016 ($-1163797)
+*/
+
+/*arithmetic operators
+console.log(a+b) - addition
+console.log(a-b) - subtraction
+console.log(a/b) - division
+console.log(a*b) - multiplication*/
+
+
+console(
+  profits: 
+  losses: 
+  total months: 0 
+  average profit: 
+  console.log()
+  average losses:
+
+
+)
+*/
+
+for (let i = 0; i < finances.length; i++) {
+  const [date, amount] = finance[i];
+  console.log(date);
+  console.log(amount);
+  
+}
+	
+	
