@@ -7,11 +7,13 @@ for (let i = 0; i < months.length; i++) {
   console.log(month);
   for (let j = 0; j < years.length; j++) {
     const year = years[j];
-    console.log(year);
-    
-  }
-  
+    console.log(year); 
+  }  
+
 }
+
+console.log(months.length * years.length)
+
 
 /*function(){
   Math.min()
