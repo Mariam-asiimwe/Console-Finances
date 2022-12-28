@@ -1,6 +1,7 @@
 let months = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 let years = [ "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"];
-let dates = ["months"+"years"]
+
+let totalMonths = 0;
 
 for (let i = 0; i < months.length; i++) {
   const month = months[i];
@@ -11,24 +12,7 @@ for (let i = 0; i < months.length; i++) {
   }  
 
 }
-
-console.log(months.length * years.length)
-
-
-/*function(){
-  Math.min()
-  Math.max()
-*/
-
-//for (let i = 0; i < dates.length; i++){}
-  
-
-/*
-let currentMonth = ["current Month", "year"]
-let previousMonth = ["previous Month", "year"]
-let average = 0;
-let losses = 0 ;
-let profits = 0 ;
+console.log(months.length * years.length - 10)
 
 let finances = [
 ['Jan-2010', 867884],
@@ -119,6 +103,15 @@ let finances = [
 ['Feb-2017', 671099]
 ];
 
+console.log("inner array at[0] and last index of that array: ",finances[0][0])
+for (let i = 0; i < finances.length; i++) {
+  console.log(finances[i][1]);
+  
+}
+
+
+
+
 /*getMonth(0-11)
 totalMonths = getMonth * 8
 console.log("months")
@@ -148,7 +141,21 @@ console.log(a/b) - division
 console.log(a*b) - multiplication
 
 modulus used to find out what the remainder is between 2 numbers (if even or not
-
+  
+  /*function(){
+    Math.min()
+    Math.max()
+  */
+  
+  //for (let i = 0; i < dates.length; i++){}
+    
+  
+  /*
+  let currentMonth = ["current Month", "year"]
+  let previousMonth = ["previous Month", "year"]
+  let average = 0;
+  let losses = 0 ;
+  let profits = 0 ;*/
 
 /*console(
   profits: ;
@@ -160,23 +167,8 @@ modulus used to find out what the remainder is between 2 numbers (if even or not
   */
 
 /*for (let i = 0; i < finances.length; i++) {
-  const [date, amount] = finance[0];
-  console.log(date);
-  console.log(amount);
-  console.log(finance);
+  const [finance] = finances[0];
+  console.log(finances - 10);
    
-}
+}*/
 
-/*
-
-for (let index = 0; index < array.length; index++) {
-  const element = array[index];
-  
-}
-
-if ("currentMonth" - "previousMonth" ) {
-
-
-  
-}
-*/
