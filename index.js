@@ -6,13 +6,13 @@ let totalMonths = 0;
 for (let i = 0; i < months.length; i++) {
   const month = months[i];
   console.log(month);
-  for (let j = 0; j < years.length; j++) {
+  for (let j = 0; j < years.length - 10; j++) {
     const year = years[j];
     console.log(year); 
   }  
 
 }
-console.log(months.length * years.length - 10)
+//console.log("Total months: ", months.length * years.length - 10)
 
 let finances = [
 ['Jan-2010', 867884],
@@ -106,15 +106,15 @@ let finances = [
 console.log("inner array at[0] and last index of that array: ",finances[0][0])
 for (let i = 0; i < finances.length; i++) {
   console.log(finances[i][1]);
-  
-}
+
+    
+  }
+
+console.log("Total months: ", finances.length)
+
+console.log("Total: ", finances[0][0].length)
 
 
-
-
-/*getMonth(0-11)
-totalMonths = getMonth * 8
-console.log("months")
 /*
 console.log(current month - previous month)
 Greatest Increase in Profits: Nov-2016 ($795914)
@@ -166,9 +166,4 @@ modulus used to find out what the remainder is between 2 numbers (if even or not
   average losses:
   */
 
-/*for (let i = 0; i < finances.length; i++) {
-  const [finance] = finances[0];
-  console.log(finances - 10);
-   
-}*/
 
