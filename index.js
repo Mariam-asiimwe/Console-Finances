@@ -106,13 +106,31 @@ let finances = [
 console.log("inner array at[0] and last index of that array: ",finances[0][0])
 for (let i = 0; i < finances.length; i++) {
   console.log(finances[i][1]);
-
-    
+    /*function sum(finances) {
+      finances[i][1].length;
+      return sum;
+  }*/
+   
   }
 
 console.log("Total months: ", finances.length)
 
-console.log("Total: ", finances[0][0].length)
+function Total() {
+  let totalofFinances = 0;
+  for (let i = 0; i < finances.length; i++) {
+    let totalofFinances = finances[i][1];
+    console.log(totalofFinances);
+    
+  }
+
+}
+
+console.log("Total: ", );
+console.log("Average: ", );
+console.log("Average Change: ", );
+console.log("Greatest Increase in Profits: ", );
+console.log("Greatest Decrease in Profits: " , );
+
 
 
 /*
