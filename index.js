@@ -1,4 +1,4 @@
-let months = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+/*let months = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 let years = [ "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"];
 
 let totalMonths = 0;
@@ -11,7 +11,7 @@ for (let i = 0; i < months.length; i++) {
     console.log(year); 
   }  
 
-}
+}*/
 //console.log("Total months: ", months.length * years.length - 10)
 
 let finances = [
@@ -103,33 +103,38 @@ let finances = [
 ['Feb-2017', 671099]
 ];
 
-console.log("inner array at[0] and last index of that array: ",finances[0][0])
+/*console.log("inner array at[0] and last index of that array: ",finances[0][0])
 for (let i = 0; i < finances.length; i++) {
-  console.log(finances[i][1]);
+  console.log(finances[i][1]);*/
+
+  for (let i = 0; i < finances.length; i++) {
+    const [date, amount ] = finances[i];
+    console.log(date);
+    console.log(amount);
+    //console.log(currentAmount);
+    //console.log(previousAmount);
+    
+  }
+  console.log("Total: ", );
+  console.log("Total months: ", finances.length)
+  console.log("Average: ", );
+  console.log("Average Change: ", );
+  console.log("Greatest Increase in Profits: ", );
+  console.log("Greatest Decrease in Profits: " , );
+  /*let amounts = 0;
+  for (let i = 0; i < amounts.length; i++) {
+  const amount = amounts[i];*/
+  //console.log(amount.length);
     /*function sum(finances) {
       finances[i][1].length;
       return sum;
   }*/
    
-  }
+  
 
-console.log("Total months: ", finances.length)
 
-function Total() {
-  let totalofFinances = 0;
-  for (let i = 0; i < finances.length; i++) {
-    let totalofFinances = finances[i][1];
-    console.log(totalofFinances);
-    
-  }
+//let Fianacial Analysis = undefined;
 
-}
-
-console.log("Total: ", );
-console.log("Average: ", );
-console.log("Average Change: ", );
-console.log("Greatest Increase in Profits: ", );
-console.log("Greatest Decrease in Profits: " , );
 
 
 
