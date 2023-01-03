@@ -102,17 +102,32 @@ let finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+let total = 0; 
+for (let i = 0; i < finances.length; i++) {
+  const month = finances[i];
+  total+=month[1]
+}
+
+let average = 0;
+for (let i = 0; i < finances.length; i++) {
+  const month = finances[i];
+  average = total/finances.length
+  
+}
 
 
-//console.log("inner array at[0] and last index of that array: ",finances[0][1])
+
+
+
+/*console.log("inner array at[0] and last index of that array: ",finances[0][1])
 for (let i = [0][1]; i < finances[0][1].length; i++) 
 console.log(finances[i][1]++);
+*/
 
-
-console.log("Total: ", );
+console.log("Total: ",total );
 console.log("Total months: ", finances.length)
-console.log("Average: ", );
-console.log("Average Change: ", );
+//console.log("Average: ",average );
+console.log("Average Change: ",average );
 console.log("Greatest Increase in Profits: ", );
 console.log("Greatest Decrease in Profits: " , );
 
