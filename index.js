@@ -103,37 +103,61 @@ let finances = [
 ['Feb-2017', 671099]
 ];
 
-/*console.log("inner array at[0] and last index of that array: ",finances[0][0])
-for (let i = 0; i < finances.length; i++) {
-  console.log(finances[i][1]);*/
 
-  for (let i = 0; i < finances.length; i++) {
+//console.log("inner array at[0] and last index of that array: ",finances[0][1])
+for (let i = [0][1]; i < finances[0][1].length; i++) 
+console.log(finances[i][1]++);
+
+
+console.log("Total: ", );
+console.log("Total months: ", finances.length)
+console.log("Average: ", );
+console.log("Average Change: ", );
+console.log("Greatest Increase in Profits: ", );
+console.log("Greatest Decrease in Profits: " , );
+
+//console.log("Total: ", i++)
+//for (i=finances[0][1]; i <= finances[0][85]; i++)
+
+
+ //for (let i = 0; i < financeTotal[0][1].length; i++) {
+  //console.log(financeTotal)
+  
+  //To calculate average add 'Total of finances/ total months
+
+  
+ 
+
+
+  
+  //console.log("Total: ", )
+
+
+  
+
+
+/*for (let i = 0; i < finances.length; i++) {
+  const finance = finances[i];
+  console.log(finances)*/
+/*  for (let i = 0; i < finances.length; i++) {
     const [date, amount ] = finances[i];
     console.log(date);
     console.log(amount);
     //console.log(currentAmount);
     //console.log(previousAmount);
     
-  }
-  console.log("Total: ", );
-  console.log("Total months: ", finances.length)
-  console.log("Average: ", );
-  console.log("Average Change: ", );
-  console.log("Greatest Increase in Profits: ", );
-  console.log("Greatest Decrease in Profits: " , );
-  /*let amounts = 0;
+  }*/
+
+  
+ /* let amounts = 0;
   for (let i = 0; i < amounts.length; i++) {
-  const amount = amounts[i];*/
+  const amount = amounts[i];
+  }
   //console.log(amount.length);
     /*function sum(finances) {
       finances[i][1].length;
       return sum;
-  }*/
-   
-  
-
-
-//let Fianacial Analysis = undefined;
+  }
 
 
 
@@ -147,7 +171,7 @@ Greatest Decrease in Profits: Jul-2016 ($-1163797)
 
 */
 
-/* ```text
+/* ```text solution
 Financial Analysis
 ----------------------------
 Total Months: 86
